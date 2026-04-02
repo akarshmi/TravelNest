@@ -89,6 +89,7 @@ app.delete("/listings/:id", async (req,res)=>{
 
 })
 
+// Server Listening
 app.listen(8080,()=>{
     console.log("Server is listening to port 8080");
 });
